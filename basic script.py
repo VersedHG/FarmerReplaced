@@ -20,7 +20,7 @@ while True:
 			move(East)
 		move(North)
 	elif get_pos_x() == 2:
-		if get_pos_y() != 2:
+		if get_pos_y() != 3:
 			if can_harvest():
 				harvest()
 			if get_ground_type() == Grounds.Turf:
